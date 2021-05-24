@@ -4,6 +4,8 @@ import {
   InfoH1,
   InfoWrapper,
   InfoCard,
+  InfoCard2,
+  InfoCard3,
   InfoTop,
   InfoBox,
   InfoBox2,
@@ -35,20 +37,20 @@ const InfoSection = () => {
               tech teams.
             </InfoP>
           </InfoCard>
-          <InfoCard>
+          <InfoCard2>
             <InfoTop>
               <InfoBox2>
                 <InfoIcon></InfoIcon>
               </InfoBox2>
               <InfoArrow2 src={arrow} />
             </InfoTop>
-            <InfoH2>Selecciona Departamento</InfoH2>
+            <InfoH2>Selecciona departamento</InfoH2>
             <InfoP>
               We’ve helped over 2,500 job seekers to get into the most popular
               tech teams.
             </InfoP>
-          </InfoCard>
-          <InfoCard>
+          </InfoCard2>
+          <InfoCard3>
             <InfoTop>
               <InfoBox3>
                 <InfoIcon></InfoIcon>
@@ -59,7 +61,7 @@ const InfoSection = () => {
               We’ve helped over 2,500 job seekers to get into the most popular
               tech teams.
             </InfoP>
-          </InfoCard>
+          </InfoCard3>
         </InfoWrapper>
       </InfoContainer>
     </>
