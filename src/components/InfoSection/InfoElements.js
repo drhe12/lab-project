@@ -5,30 +5,36 @@ export const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   //justify-content: center;
-  align-items: center;
+  //align-items: center;
 
-  @media screen and (max-width: 768px) {
-    height: 1100px;
-    //margin-top: 320px;
+  @media screen and (max-width: 1000px) {
+    height: 950px;
   }
 
-  @media screen and (max-width: 480px) {
-    height: 1300px;
-  }
+  // @media screen and (max-width: 768px) {
+  //   height: 1100px;
+  //   //margin-top: 320px;
+  // }
+
+  // @media screen and (max-width: 480px) {
+  //   height: 1300px;
+  // }
 `;
 
 export const InfoWrapper = styled.div`
-  //position:
+  height: 450px;
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr auto;
-  align-items: center;
+  //align-items: center;
   grid-gap: 16px;
-  padding: 0 30px;
+  padding: 0 0 0 30px;
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
+    height: 700px;
+    padding: 0 17px 0 40px;
   }
 
   // @media screen and (max-width: 768px) {
@@ -65,6 +71,10 @@ export const InfoCard3 = styled.div`
   justify-content: flex-start;
   max-height: 350px;
   padding: 15px 15px 15px 0;
+
+  @media screen and (max-width: 1000px) {
+    top: 0;
+  }
 `;
 
 export const InfoTop = styled.div`
@@ -124,10 +134,22 @@ export const InfoArrow = styled.img`
   width: 220px;
   height: 80px;
   //margin-left: 25px;
-  //transform: rotate(3deg);
 
   @media screen and (max-width: 768px) {
-    width: 0;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+    width: 140px;
+    transform: rotate(10deg);
+  }
+
+  @media screen and (max-width: 525px) {
+    width: 130px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 80px;
+    left: 75px;
   }
 `;
 
@@ -142,7 +164,19 @@ export const InfoArrow2 = styled.img`
   transform: matrix(0.82, 0.57, 0.57, -0.82, 0, 0);
 
   @media screen and (max-width: 768px) {
-    width: 0;
+    position: absolute;
+    width: 140px;
+    top: 310px;
+    right: 80px;
+    transform: matrix(0.82, 0.57, 0.57, -0.82, 0, 0) rotate(230deg);
+  }
+
+  @media screen and (max-width: 525px) {
+    width: 130px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 80px;
   }
 `;
 
@@ -150,7 +184,10 @@ export const InfoH1 = styled.h1`
   color: #1d293f;
   font-size: 40px;
   margin: 54px 0 64px 0;
+  padding: 0 25px;
   font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -166,9 +203,39 @@ export const InfoH2 = styled.h2`
   font-weight: bold;
 `;
 
+export const InfoH23 = styled.h2`
+  max-width: 220px;
+  color: #1d293f;
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 0 0 16px 0;
+  font-weight: bold;
+`;
+
 export const InfoP = styled.p`
   max-width: 210px;
   font-size: 16px;
   color: #949494;
   //text-align: center;
+`;
+
+export const InfoDiv = styled.div`
+  position: relative;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+`;
+
+export const ImgGusano = styled.img`
+  position: relative;
+  bottom: 165px;
+  //left: 570px;
+  height: 140px;
+  width: 27px;
+  //margin-right: 10px;
+  right: 20px;
+
+  @media screen and (max-width: 1000px) {
+    bottom: 100px;
+  }
 `;

@@ -14,9 +14,13 @@ import {
   InfoArrow,
   InfoArrow2,
   InfoH2,
+  InfoH23,
   InfoP,
+  InfoDiv,
+  ImgGusano,
 } from "./InfoElements";
 import arrow from "../../assets/images/Arrow.svg";
+import gusa from "../../assets/images/Gusano.svg";
 
 const InfoSection = () => {
   return (
@@ -56,13 +60,16 @@ const InfoSection = () => {
                 <InfoIcon></InfoIcon>
               </InfoBox3>
             </InfoTop>
-            <InfoH2>Busca tu laboratorio</InfoH2>
+            <InfoH23>Busca tu laboratorio</InfoH23>
             <InfoP>
               We’ve helped over 2,500 job seekers to get into the most popular
               tech teams.
             </InfoP>
           </InfoCard3>
         </InfoWrapper>
+        <InfoDiv>
+          <ImgGusano src={gusa} />
+        </InfoDiv>
       </InfoContainer>
     </>
   );
