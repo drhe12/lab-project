@@ -70,7 +70,7 @@ export const Column2 = styled.div`
   grid-area: col2;
 
   min-height: 670px;
-  //max-height: 700px;
+  max-height: 700px;
   //width: auto;
   background-image: url(${back});
   background-size: contain;
