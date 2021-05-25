@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Principal from "./components/BannerSection";
+import Banner from "./components/BannerSection";
 
 // Argon
 import "./assets/vendor/nucleo/css/nucleo.css";
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Slider />
-      <Principal />
+      <Banner />
       <InfoSection />
     </>
   );
