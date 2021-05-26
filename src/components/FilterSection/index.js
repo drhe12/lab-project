@@ -1,11 +1,19 @@
 import React from "react";
-import { FilterContainer, FilterH1, FilterWrapper } from "./FilterElements";
-import { Form, Row, Col, FormGroup, Input } from "reactstrap";
+import {
+  FilterContainer,
+  FilterH1,
+  FilterWrapper,
+  BtnWrap,
+  ImgGusano,
+} from "./FilterElements";
+import { Form, Row, Col, FormGroup, Input, Button } from "reactstrap";
+import gusano from "../../assets/images/Gusano.svg";
 
 const FilterSection = () => {
   return (
     <>
       <FilterContainer>
+        <ImgGusano src={gusano} />
         <FilterH1>Mira los cursos y los laboratorios disponibles</FilterH1>
         <FilterWrapper>
           {/* <label className="custom-control-label">1. Escoge tu curso</label> */}
@@ -44,6 +52,11 @@ const FilterSection = () => {
               </Col>
             </Row>
           </Form>
+          <BtnWrap>
+            <Button color="success" type="button">
+              ¡Vamos!
+            </Button>
+          </BtnWrap>
         </FilterWrapper>
       </FilterContainer>
     </>
