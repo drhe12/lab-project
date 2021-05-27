@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FilterContainer = styled.div`
   position: relative;
-  height: 600px;
+  height: 700px;
   //background-color: red;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ export const FilterH1 = styled.h1`
   color: #1d293f;
   font-size: 40px;
   max-width: 720px;
-  margin: 54px auto 64px auto;
+  margin: 90px auto 80px auto;
   padding: 0 25px;
   font-weight: bold;
   text-align: center;
@@ -37,7 +37,7 @@ export const BtnWrap = styled.div`
 
 export const ImgGusano = styled.img`
   position: absolute;
-  top: -30px;
+  top: 10px;
   left: 10px;
   height: 170px;
   width: 70px;
@@ -51,4 +51,40 @@ export const ImgGusano = styled.img`
   // @media screen and (max-width: 1000px) {
   //   bottom: 200px;
   // }
+`;
+
+export const ImgBlueCircle = styled.img`
+  position: absolute;
+  top: -10px;
+  right: 0px;
+  height: 300px;
+  // width: 100px;
+  z-index: -1;
+`;
+
+export const ImgPinkCircle = styled.img`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+  // width: 100px;
+  z-index: -1;
+`;
+
+export const ImgCircle = styled.img`
+  position: absolute;
+  left: 25%;
+  bottom: 15%;
+  height: 80px;
+  width: 80px;
+`;
+
+export const ImgGusanoBottom = styled.img`
+  position: absolute;
+  bottom: -70px;
+  left: 55%;
+  height: 170px;
+  width: 70px;
+  z-index: -1;
+  transform: rotate(60deg);
 `;
