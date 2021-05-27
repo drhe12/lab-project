@@ -8,6 +8,13 @@ export const FilterContainer = styled.div`
   flex-direction: column;
   //justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 1000px) {
+    height: 850px;
+  }
+  @media screen and (max-width: 768px) {
+    height: 990px;
+  }
 `;
 
 export const FilterH1 = styled.h1`
@@ -19,14 +26,53 @@ export const FilterH1 = styled.h1`
   font-weight: bold;
   text-align: center;
   line-height: 1.3;
+
+  @media screen and (max-width: 850px) {
+    padding: 0 50px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 75px;
+  }
 `;
 
 export const FilterWrapper = styled.div`
-  height: 450px;
-  width: 950px;
+  height: auto;
+  // Revisar
+  width: 1000px;
   margin: 0 auto;
-  // display: flex;
-  // justify-content: center;
+  display: grid;
+  //grid-template-areas: "a a a";
+  //grid-auto-columns: minmax(300px, auto);
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-gap: 16px;
+
+  @media screen and (max-width: 1130px) {
+    max-width: 1000px;
+    width: auto;
+    min-width: 850px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    min-width: 700px;
+  }
+
+  @media screen and (max-width: 880px) {
+    max-width: 750px;
+    min-width: 650px;
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    max-width: 550px;
+    min-width: 400px;
+  }
+  @media screen and (max-width: 600px) {
+    max-width: 500px;
+    min-width: 330px;
+  }
 `;
 
 export const BtnWrap = styled.div`
