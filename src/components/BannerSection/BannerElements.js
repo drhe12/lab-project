@@ -5,6 +5,7 @@ export const PrincipalContainer = styled.div`
   color: #000;
   background: #fff;
   max-height: 700px;
+  
 
   @media screen and (max-width: 768px) {
     padding: 60px 0 0 0;
