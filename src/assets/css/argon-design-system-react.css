@@ -1919,7 +1919,8 @@ pre code {
 }
 .form-control:disabled,
 .form-control[readonly] {
-  background-color: #e9ecef;
+  /* Cambio*/
+  background-color: #fcfcfc;
   opacity: 1;
 }
 
@@ -2083,6 +2084,8 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center right calc(0.375em + 0.3125rem);
   background-size: calc(0.75em + 0.625rem) calc(0.75em + 0.625rem);
+  background-color: #fff;
+  color: #2dce89;
 }
 .was-validated .form-control:valid:focus,
 .form-control.is-valid:focus {
@@ -16634,7 +16637,7 @@ label {
   transition: all 0.15s ease;
 }
 .form-control:focus::placeholder {
-  color: #adb5bd;
+  color: #8898aa;
 }
 .form-control.is-valid,
 .form-control.is-invalid {

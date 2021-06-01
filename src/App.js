@@ -9,6 +9,7 @@ import "./assets/vendor/font-awesome/css/font-awesome.min.css";
 import "./assets/css/argon-design-system-react.css";
 import Slider from "./components/Slider";
 import InfoSection from "./components/InfoSection";
+import FilterSection from "./components/FilterSection";
 
 
 function App() {
@@ -17,7 +18,11 @@ function App() {
       <Slider />
       <Banner />
       <InfoSection />
+
+      <FilterSection />
+
       <Footer />
+
     </>
   );
 }
