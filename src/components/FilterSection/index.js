@@ -10,7 +10,7 @@ import {
   ImgGusanoBottom,
   ImgCircle,
 } from "./FilterElements";
-import { Form, Row, Col, FormGroup, Input, Button } from "reactstrap";
+import { Col, FormGroup, Input, Button } from "reactstrap";
 import gusano from "../../assets/images/Gusano.svg";
 import blueCircle from "../../assets/images/Blue_circle.svg";
 import pinkCircle from "../../assets/images/Pink_circle.svg";
