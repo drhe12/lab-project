@@ -9,6 +9,7 @@ import "./assets/css/argon-design-system-react.css";
 import Slider from "./components/Slider";
 import InfoSection from "./components/InfoSection";
 import FilterSection from "./components/FilterSection";
+import Footer from "./components/FooterSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Banner />
       <InfoSection />
       <FilterSection />
+      <Footer />
     </>
   );
 }
