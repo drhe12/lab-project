@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SponsorContainer = styled.div`
-  height: 536px;
+  height: 600px;
   background: linear-gradient(
       181.12deg,
       #ffffff 3.31%,
@@ -11,8 +11,14 @@ export const SponsorContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 880px) {
-    height: auto;
+  @media screen and (max-width: 800px) {
+    height: 700px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 600px;
+  }
+  @media screen and (max-width: 360px) {
+    height: 550px;
   }
 `;
 
@@ -28,8 +34,9 @@ export const SponsorTitle = styled.div`
   line-height: 1.3;
   margin: 90px auto 80px auto;
 
-  @media screen and (max-width: 500px) {
-    margin-bottom: 40px;
+  @media screen and (max-width: 480px) {
+    font-size: 28px;
+    margin: 60px 40px;
   }
 `;
 

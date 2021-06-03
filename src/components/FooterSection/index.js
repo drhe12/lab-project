@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterMsg>!Vive la experiencia de laboratorio virtual!</FooterMsg>
+        <FooterMsg>¡Vive la experiencia de laboratorio virtual!</FooterMsg>
 
         <FooterSocialNetworkContainer>
           <FooterSocialNetworkWrapper>

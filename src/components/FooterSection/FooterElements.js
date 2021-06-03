@@ -5,6 +5,11 @@ export const FooterContainer = styled.div`
   justify-content: center;
   top: 0;
   display: flex;
+  height: 180px;
+
+  @media screen and (max-width: 768px) {
+    height: 210px;
+  }
 `;
 
 export const FooterWrapper = styled.div`
@@ -27,7 +32,7 @@ export const FooterMsg = styled.div`
   @media screen and (max-width: 600px) {
     font-size: 30px;
   }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 480px) {
     font-size: 24px;
   }
 `;

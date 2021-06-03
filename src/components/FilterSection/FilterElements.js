@@ -173,7 +173,7 @@ export const ImgGusanoBottom = styled.img`
   left: 55%;
   height: 170px;
   width: 70px;
-  z-index: -1;
+  z-index: 1;
   transform: rotate(60deg);
 
   @media screen and (max-width: 480px) {
