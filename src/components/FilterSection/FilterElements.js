@@ -29,9 +29,17 @@ export const FilterH1 = styled.h1`
 
   @media screen and (max-width: 850px) {
     padding: 0 50px;
+    margin: 75px auto;
   }
   @media screen and (max-width: 768px) {
     padding: 0 75px;
+    margin: 70px auto;
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 0 50px;
+    font-size: 28px;
+    margin: 60px auto;
   }
 `;
 
@@ -73,6 +81,14 @@ export const FilterWrapper = styled.div`
     max-width: 500px;
     min-width: 330px;
   }
+  @media screen and (max-width: 430px) {
+    max-width: 350px;
+    min-width: 270px;
+  }
+  @media screen and (max-width: 380px) {
+    max-width: 300px;
+    min-width: 250px;
+  }
 `;
 
 export const BtnWrap = styled.div`
@@ -90,13 +106,14 @@ export const ImgGusano = styled.img`
   z-index: -1;
   transform: rotate(60deg);
 
-  // @media screen and (max-width: 1150px) {
-  //   bottom: 100px;
-  // }
-
-  // @media screen and (max-width: 1000px) {
-  //   bottom: 200px;
-  // }
+  @media screen and (max-width: 480px) {
+    height: 120px;
+    left: -5px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 100px;
+    left: -10px;
+  }
 `;
 
 export const ImgBlueCircle = styled.img`
@@ -106,6 +123,15 @@ export const ImgBlueCircle = styled.img`
   height: 300px;
   // width: 100px;
   z-index: -1;
+
+  @media screen and (max-width: 480px) {
+    height: 250px;
+    top: -5px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 200px;
+    top: 10px;
+  }
 `;
 
 export const ImgPinkCircle = styled.img`
@@ -115,6 +141,13 @@ export const ImgPinkCircle = styled.img`
   height: 400px;
   // width: 100px;
   z-index: -1;
+
+  @media screen and (max-width: 480px) {
+    height: 360px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 320px;
+  }
 `;
 
 export const ImgCircle = styled.img`
@@ -123,6 +156,15 @@ export const ImgCircle = styled.img`
   bottom: 15%;
   height: 80px;
   width: 80px;
+
+  @media screen and (max-width: 480px) {
+    height: 70px;
+    width: 70px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 60px;
+    width: 60px;
+  }
 `;
 
 export const ImgGusanoBottom = styled.img`
@@ -133,4 +175,13 @@ export const ImgGusanoBottom = styled.img`
   width: 70px;
   z-index: -1;
   transform: rotate(60deg);
+
+  @media screen and (max-width: 480px) {
+    height: 120px;
+    bottom: -50px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 100px;
+    bottom: -45px;
+  }
 `;

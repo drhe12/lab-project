@@ -26,6 +26,9 @@ export const PrincipalWrapper = styled.div`
   @media screen and (max-width: 1140px) {
     min-height: 570px;
   }
+  @media screen and (min-width: 1480px) {
+    max-width: 2000px;
+  }
 `;
 
 export const PrincipalRow = styled.div`
@@ -39,6 +42,10 @@ export const PrincipalRow = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+  }
+
+  @media screen and (min-width: 1480px) {
+    column-gap: 80px;
   }
 `;
 
@@ -81,11 +88,11 @@ export const Column2 = styled.div`
     min-height: 470px;
   }
 
-  // @media screen and (max-width: 950px) {
-  //   min-height: 200px;
-  // }
+  @media screen and (max-width: 380px) {
+    max-height: 420px;
+    min-height: 300px;
+  }
 `;
-
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
@@ -97,6 +104,9 @@ export const TextWrapper = styled.div`
   @media screen and (max-width: 768px) {
     padding-bottom: 20px;
   }
+  // @media screen and (min-width: 1480px) {
+  //   max-width: 650px;
+  // }
 `;
 
 export const Heading = styled.h1`
@@ -137,6 +147,10 @@ export const Subtitle = styled.p`
   @media screen and (max-width: 768px) {
     margin-bottom: 60px;
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 export const BtnWrap = styled.div`
@@ -148,6 +162,9 @@ export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
   //top: -70px;
+  // @media screen and (min-width: 1480px) {
+  //   max-width: 800px;
+  // }
 `;
 
 export const Img = styled.img`
@@ -157,6 +174,9 @@ export const Img = styled.img`
   // padding-top: 50px;
   // padding-bottom: 80px;
   // margin: 0 0 10px 0;
+  @media screen and (max-width: 380px) {
+    padding: 40px 20px 90px 20px;
+  }
 `;
 
 export const ImgGusaWrap = styled.div`

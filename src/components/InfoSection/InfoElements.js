@@ -47,7 +47,11 @@ export const InfoWrapper = styled.div`
   }
 
   @media screen and (max-width: 380px) {
+    height: 730px;
     padding: 0 20px 0 40px;
+  }
+  @media screen and (max-width: 328px) {
+    padding: 0 10px 0 30px;
   }
 `;
 
@@ -72,6 +76,7 @@ export const InfoCard2 = styled.div`
 
   @media screen and (max-width: 768px) {
     align-items: center;
+    top: 85px;
   }
 `;
 
@@ -89,9 +94,9 @@ export const InfoCard3 = styled.div`
     top: 40px;
   }
 
-  // @media screen and (max-width: 768px) {
-  //   padding: 15px 15px 15px 30px;
-  // }
+  @media screen and (max-width: 768px) {
+    top: 20px;
+  }
 `;
 
 export const InfoTop = styled.div`
@@ -111,6 +116,10 @@ export const InfoBox = styled.div`
   background: #f5365c;
   box-shadow: 0px 39.8961px 67.3247px rgba(245, 54, 92, 0.2246);
   border-radius: 7px;
+
+  @media screen and (max-width: 350px) {
+    margin: 0 10px 40px 0;
+  }
 `;
 
 // export const InfoBox2 = styled.div`
@@ -175,6 +184,9 @@ export const InfoArrow = styled.img`
     width: 80px;
     left: 85px;
   }
+  @media screen and (max-width: 360px) {
+    left: 75px;
+  }
 `;
 
 export const InfoArrow2 = styled.img`
@@ -209,6 +221,7 @@ export const InfoArrow2 = styled.img`
 
   @media screen and (max-width: 480px) {
     width: 100px;
+    top: 300px;
   }
 
   @media screen and (max-width: 420px) {
@@ -227,26 +240,38 @@ export const InfoH1 = styled.h1`
   line-height: 1.3;
 
   @media screen and (max-width: 480px) {
-    font-size: 2rem;
+    font-size: 28px;
+  }
+  @media screen and (max-width: 400px) {
+    padding: 0 40px;
+    margin: 40px 0 60px 0;
   }
 `;
 
 export const InfoH2 = styled.h2`
   max-width: 160px;
   color: #1d293f;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.3;
   margin: 0 0 16px 0;
   font-weight: bold;
+
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
 `;
 
 export const InfoH23 = styled.h2`
   max-width: 220px;
   color: #1d293f;
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.3;
   margin: 0 0 16px 0;
   font-weight: bold;
+
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
 `;
 
 export const InfoP = styled.p`
@@ -254,6 +279,10 @@ export const InfoP = styled.p`
   font-size: 16px;
   color: #949494;
   //text-align: center;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
 `;
 
 export const InfoDiv = styled.div`
@@ -287,6 +316,12 @@ export const ImgGusano = styled.img`
   @media screen and (max-width: 1000px) {
     bottom: 200px;
   }
+  @media screen and (max-width: 480px) {
+    height: 100px;
+  }
+  @media screen and (max-width: 380px) {
+    height: 85px;
+  }
 `;
 
 export const ImgCircle = styled.img`
@@ -314,5 +349,16 @@ export const ImgCircle = styled.img`
     height: 105px;
     width: 105px;
     top: -770px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 85px;
+    width: 85px;
+    top: -800px;
+  }
+  @media screen and (max-width: 450px) {
+    top: -770px;
+  }
+  @media screen and (max-width: 380px) {
+    top: -800px;
   }
 `;

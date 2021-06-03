@@ -23,16 +23,16 @@ export const FooterWrapper = styled.div`
 export const FooterMsg = styled.div`
   font-size: 36px;
   line-height: 1.2;
-  font-weight: 600;  
+  font-weight: 600;
   color: #fff;
- // background-color: #595959;
-  flex-basis:50%;
- 
+  // background-color: #595959;
+  flex-basis: 50%;
+
   @media screen and (max-width: 600px) {
     font-size: 30px;
-
-    @media screen and (max-width: 400px) {
-        font-size: 24px;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 24px;
   }
 `;
 
