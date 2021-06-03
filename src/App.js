@@ -1,3 +1,4 @@
+import logo from "./logo.svg";
 import "./App.css";
 import Banner from "./components/BannerSection";
 
@@ -8,7 +9,6 @@ import "./assets/css/argon-design-system-react.css";
 import Slider from "./components/Slider";
 import InfoSection from "./components/InfoSection";
 import FilterSection from "./components/FilterSection";
-import SponsorSection from "./components/SponsorSection";
 import Footer from "./components/FooterSection";
 
 function App() {
@@ -18,7 +18,6 @@ function App() {
       <Banner />
       <InfoSection />
       <FilterSection />
-      <SponsorSection />
       <Footer />
     </>
   );
