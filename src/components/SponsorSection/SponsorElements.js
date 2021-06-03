@@ -11,13 +11,12 @@ export const SponsorContainer = styled.div`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 890px) {
+  @media screen and (max-width: 880px) {
     height: auto;
-}
+  }
 `;
 
 export const SponsorWrapper = styled.div`
-  width: 100%;
   max-width: 960px;
 `;
 
@@ -28,6 +27,10 @@ export const SponsorTitle = styled.div`
   text-align: center;
   line-height: 1.3;
   margin: 90px auto 80px auto;
+
+  @media screen and (max-width: 500px) {
+    margin-bottom: 40px;
+  }
 `;
 
 export const SponsorItemWrapper = styled.div`
@@ -38,13 +41,12 @@ export const SponsorItemWrapper = styled.div`
   justify-content: center;
 `;
 
-export const SponsorItem = styled.div`
-  //flex-basis: 50%;
-`;
+export const SponsorItem = styled.div``;
 
 export const SponsorImg = styled.img`
-  width: 432px;
+  width: 400px;
 
-  
-
+  @media screen and (max-width: 500px) {
+    max-width: 80%;
+  }
 `;
