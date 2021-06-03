@@ -22,36 +22,34 @@ import { Button } from "reactstrap";
 
 const Banner = ({ imgStart }) => {
   return (
-    <>
-      <PrincipalContainer>
-        <PrincipalWrapper>
-          <PrincipalRow imgStart={imgStart}>
-            <Column1>
-              <TextWrapper>
-                <Heading>
-                  ¡Vive la experiencia de
-                  <Textspan> laboratorio virtual!</Textspan>
-                </Heading>
-                <Subtitle>A un clic de distancia</Subtitle>
-                <BtnWrap>
-                  <Button color="success" type="button">
-                    ¡Vamos!
-                  </Button>
-                </BtnWrap>
-              </TextWrapper>
-              <ImgGusaWrap>
-                <ImgGusa src={gusa} alt="" />
-              </ImgGusaWrap>
-            </Column1>
-            <Column2>
-              <ImgWrap>
-                <Img src={img} />
-              </ImgWrap>
-            </Column2>
-          </PrincipalRow>
-        </PrincipalWrapper>
-      </PrincipalContainer>
-    </>
+    <PrincipalContainer>
+      <PrincipalWrapper>
+        <PrincipalRow imgStart={imgStart}>
+          <Column1>
+            <TextWrapper>
+              <Heading>
+                ¡Vive la experiencia de
+                <Textspan> laboratorio virtual!</Textspan>
+              </Heading>
+              <Subtitle>A un clic de distancia</Subtitle>
+              <BtnWrap>
+                <Button color="success" type="button">
+                  ¡Vamos!
+                </Button>
+              </BtnWrap>
+            </TextWrapper>
+            <ImgGusaWrap>
+              <ImgGusa src={gusa} alt="" />
+            </ImgGusaWrap>
+          </Column1>
+          <Column2>
+            <ImgWrap>
+              <Img src={img} />
+            </ImgWrap>
+          </Column2>
+        </PrincipalRow>
+      </PrincipalWrapper>
+    </PrincipalContainer>
   );
 };
 

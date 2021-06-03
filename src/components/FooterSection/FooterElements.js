@@ -2,26 +2,22 @@ import styled from "styled-components";
 
 export const FooterContainer = styled.div`
   background: #333333;
-  height: 220px;
   justify-content: center;
-  position: sticky;
   top: 0;
-  //padding: 20px;
   display: flex;
 `;
 
 export const FooterWrapper = styled.div`
-  //  background-color: #aaa;
   width: 100%;
-  max-width: 900px;
+  max-width: 920px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 40px;
+  margin: 60px 20px 60px 20px;
 `;
 
 export const FooterMsg = styled.div`
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.2;
   font-weight: 600;
   color: #fff;
@@ -38,7 +34,6 @@ export const FooterMsg = styled.div`
 
 export const FooterSocialNetworkContainer = styled.div`
   flex-basis: 50%;
-  //background-color: #919191;
 `;
 
 export const FooterSocialNetworkWrapper = styled.div`
@@ -47,7 +42,7 @@ export const FooterSocialNetworkWrapper = styled.div`
 `;
 
 export const FooterImg = styled.img`
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   margin: 10px;
 `;

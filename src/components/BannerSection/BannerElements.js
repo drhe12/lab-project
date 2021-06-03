@@ -5,7 +5,7 @@ export const PrincipalContainer = styled.div`
   color: #000;
   background: #fff;
   max-height: 700px;
-
+ 
   @media screen and (max-width: 768px) {
     padding: 60px 0 0 0;
     max-height: 1100px;
@@ -22,7 +22,7 @@ export const PrincipalWrapper = styled.div`
   margin-left: auto;
   padding: 0 0 0 24px;
   justify-content: center;
-
+  
   @media screen and (max-width: 1140px) {
     min-height: 570px;
   }
