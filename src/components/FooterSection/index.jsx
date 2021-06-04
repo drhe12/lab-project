@@ -15,11 +15,14 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapper>
         <FooterMsg>¡Vive la experiencia de laboratorio virtual!</FooterMsg>
-
         <FooterSocialNetworkContainer>
           <FooterSocialNetworkWrapper>
-            <FooterImg src={fb} />
-            <FooterImg src={instagram} />
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+              <FooterImg src={fb} />
+            </a>
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+              <FooterImg src={instagram} />
+            </a>
           </FooterSocialNetworkWrapper>
         </FooterSocialNetworkContainer>
       </FooterWrapper>
