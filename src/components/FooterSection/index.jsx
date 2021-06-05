@@ -17,10 +17,18 @@ const Footer = () => {
         <FooterMsg>¡Vive la experiencia de laboratorio virtual!</FooterMsg>
         <FooterSocialNetworkContainer>
           <FooterSocialNetworkWrapper>
-            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.facebook.com/UTP.Peru"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FooterImg src={fb} />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/universidadutp/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FooterImg src={instagram} />
             </a>
           </FooterSocialNetworkWrapper>

@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import back from "../../assets/images/Rectangle_4.svg";
+import { Link as LinkS } from "react-scroll";
 
 export const PrincipalContainer = styled.div`
   color: #000;
   background: #fff;
   max-height: 700px;
- 
+
   @media screen and (max-width: 768px) {
     padding: 60px 0 0 0;
     max-height: 1100px;
@@ -22,7 +23,7 @@ export const PrincipalWrapper = styled.div`
   margin-left: auto;
   padding: 0 0 0 24px;
   justify-content: center;
-  
+
   @media screen and (max-width: 1140px) {
     min-height: 570px;
   }
@@ -153,9 +154,11 @@ export const Subtitle = styled.p`
   }
 `;
 
-export const BtnWrap = styled.div`
+export const BtnWrap = styled(LinkS)`
   display: flex;
   justify-content: flex-start;
+  width: 180px;
+  z-index: 98;
 `;
 
 export const ImgWrap = styled.div`
@@ -182,6 +185,7 @@ export const Img = styled.img`
 export const ImgGusaWrap = styled.div`
   display: flex;
   justify-content: flex-start;
+  //z-index: 0;
   @media screen and (max-width: 1120px) {
     display: flex;
     justify-content: center;
@@ -198,10 +202,12 @@ export const ImgGusaWrap = styled.div`
 
 export const ImgGusa = styled.img`
   // width: 100%;
-  height: 110px;
-  padding: 0 200px 0 50px;
+  height: 200px;
+  padding: 60px 150px 0 40px;
   transform: rotate(-60deg);
-  z-index: 2;
+  bottom: -500px;
+
+  //z-index: 0;
 
   @media screen and (max-width: 1135px) {
     padding: 0 180px 0 80px;

@@ -8,12 +8,12 @@ import {
   SponsorTitle,
   SponsorItemWrapper,
   SponsorItem,
-  SponsorImg
+  SponsorImg,
 } from "./SponsorElements";
 
 const SponsorSection = () => {
   return (
-    <SponsorContainer>
+    <SponsorContainer id="sponsor">
       <SponsorWrapper>
         <SponsorTitle>Con el respaldo de</SponsorTitle>
         <SponsorItemWrapper>

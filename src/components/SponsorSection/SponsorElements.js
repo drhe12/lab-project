@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const SponsorContainer = styled.div`
+  margin-top: 7px;
   height: 600px;
   background: linear-gradient(
       181.12deg,
@@ -13,6 +14,7 @@ export const SponsorContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     height: 700px;
+    margin-top: 0;
   }
   @media screen and (max-width: 480px) {
     height: 600px;

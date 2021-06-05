@@ -19,7 +19,7 @@ import circle from "../../assets/images/Ellipse.svg";
 const FilterSection = () => {
   return (
     <>
-      <FilterContainer>
+      <FilterContainer id="filter">
         <ImgGusano src={gusano} />
         <FilterH1>Mira los cursos y los laboratorios disponibles</FilterH1>
         <ImgBlueCircle src={blueCircle} />

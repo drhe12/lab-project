@@ -23,7 +23,7 @@ import { Button } from "reactstrap";
 const Banner = ({ imgStart }) => {
   return (
     <>
-      <PrincipalContainer>
+      <PrincipalContainer id="banner">
         <PrincipalWrapper>
           <PrincipalRow imgStart={imgStart}>
             <Column1>
@@ -33,7 +33,7 @@ const Banner = ({ imgStart }) => {
                   <Textspan> laboratorio virtual!</Textspan>
                 </Heading>
                 <Subtitle>A un clic de distancia</Subtitle>
-                <BtnWrap>
+                <BtnWrap to="filter">
                   <Button color="success" type="button">
                     ¡Vamos!
                   </Button>
