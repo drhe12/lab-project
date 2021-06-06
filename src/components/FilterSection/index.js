@@ -23,17 +23,55 @@ const FilterSection = () => {
 
   const curseChange = (e) => {
     setCurso(e.target.value);
+    laboChange(e.target.value, ciudad);
   };
   const cityChange = (e) => {
     setCiudad(e.target.value);
-    laboChange();
+    laboChange(curso, e.target.value);
   };
-  const laboChange = () => {
-    if (curso > 1 && ciudad > 1) {
-      setLaboratorio("C-104");
+
+  const laboChange = (curse, city) => {
+    switch (city) {
+      case "3":
+      case "4":
+      case "5":
+      case "6":
+      case "8":
+        if (curse === "2") {
+          setLaboratorio("A-201");
+        } else if (curse === "3") {
+          setLaboratorio("A-202");
+        } else if (curse === "4") {
+          setLaboratorio("A-101");
+        } else if (curse === "5") {
+          setLaboratorio("A-102");
+        }
+        break;
+      case "2":
+        if (curse === "2" || curse === "3") {
+          setLaboratorio("B-202");
+        } else if (curse === "4" || curse === "5") {
+          setLaboratorio("B-101");
+        }
+        break;
+      case "7":
+        if (curse === "2") {
+          setLaboratorio("C-302");
+        } else if (curse === "3") {
+          setLaboratorio("C-304");
+        } else if (curse === "4") {
+          setLaboratorio("B-102");
+        } else if (curse === "5") {
+          setLaboratorio("B-104");
+        }
+        break;
+      default:
+        console.log(laboratorio);
+        break;
     }
-    console.log(curso);
-    console.log(ciudad);
+    // if (curse > 1 && city > 1) {
+    //   setLaboratorio("C-104");
+    // }
   };
 
   const handleSubmit = (event) => {
@@ -41,6 +79,7 @@ const FilterSection = () => {
     event.preventDefault();
     setCurso("1");
     setCiudad("1");
+    setLaboratorio("");
   };
   return (
     <>

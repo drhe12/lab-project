@@ -28,8 +28,8 @@ export const SponsorContainer = styled.div`
     max-height: 80vh;
   }
   @media screen and (min-height: 951px) and (max-height: 1024px) {
-    height: 85vh;
-    max-height: 85vh;
+    height: 75vh;
+    max-height: 75vh;
   }
 `;
 
