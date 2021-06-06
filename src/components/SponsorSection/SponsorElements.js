@@ -22,6 +22,15 @@ export const SponsorContainer = styled.div`
   @media screen and (max-width: 360px) {
     height: 550px;
   }
+
+  @media screen and (min-height: 900px) and (max-height: 950px) {
+    height: 80vh;
+    max-height: 80vh;
+  }
+  @media screen and (min-height: 951px) and (max-height: 1024px) {
+    height: 85vh;
+    max-height: 85vh;
+  }
 `;
 
 export const SponsorWrapper = styled.div`

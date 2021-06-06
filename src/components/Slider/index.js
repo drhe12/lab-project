@@ -20,7 +20,7 @@ const Slider = () => {
               spy={true}
               exact="true"
               smooth={true}
-              offset={0}
+              offset={-50}
               duration={500}
               // isDynamic={true}
               // onSetActive={this.handleSetActive}
@@ -32,7 +32,7 @@ const Slider = () => {
               spy={true}
               exact="true"
               smooth={true}
-              offset={0}
+              offset={-50}
               duration={500}
             ></SliderSpan>
           </SliderLi>
@@ -42,7 +42,7 @@ const Slider = () => {
               spy={true}
               exact="true"
               smooth={true}
-              offset={0}
+              offset={-50}
               duration={500}
             ></SliderSpan>
           </SliderLi>
