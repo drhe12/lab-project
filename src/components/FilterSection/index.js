@@ -19,17 +19,25 @@ import circle from "../../assets/images/Ellipse.svg";
 const FilterSection = () => {
   const [curso, setCurso] = useState("1");
   const [ciudad, setCiudad] = useState("1");
-  const [laboratorio, setLaboratorio] = useState();
+  const [laboratorio, setLaboratorio] = useState("");
 
   const curseChange = (e) => {
     setCurso(e.target.value);
   };
   const cityChange = (e) => {
     setCiudad(e.target.value);
+    laboChange();
+  };
+  const laboChange = () => {
+    if (curso > 1 && ciudad > 1) {
+      setLaboratorio("C-104");
+    }
+    console.log(curso);
+    console.log(ciudad);
   };
 
   const handleSubmit = (event) => {
-    alert("Tu laboratorio es: " + curso);
+    alert("Tu laboratorio es: " + laboratorio);
     event.preventDefault();
     setCurso("1");
     setCiudad("1");
@@ -108,6 +116,7 @@ const FilterSection = () => {
                   type="text"
                   placeholder="Laboratorio"
                   value={laboratorio}
+                  //onChange={laboChange}
                   //class="form-control is-valid"
                   className="form-control"
                   disabled
