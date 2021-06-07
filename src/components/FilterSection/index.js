@@ -20,6 +20,7 @@ const FilterSection = () => {
   const [curso, setCurso] = useState("1");
   const [ciudad, setCiudad] = useState("1");
   const [laboratorio, setLaboratorio] = useState("");
+  const [clase, setClase] = useState("form-control");
 
   const curseChange = (e) => {
     setCurso(e.target.value);
@@ -39,30 +40,40 @@ const FilterSection = () => {
       case "8":
         if (curse === "2") {
           setLaboratorio("A-201");
+          setClase("form-control is-valid");
         } else if (curse === "3") {
           setLaboratorio("A-202");
+          setClase("form-control is-valid");
         } else if (curse === "4") {
           setLaboratorio("A-101");
+          setClase("form-control is-valid");
         } else if (curse === "5") {
           setLaboratorio("A-102");
+          setClase("form-control is-valid");
         }
         break;
       case "2":
         if (curse === "2" || curse === "3") {
           setLaboratorio("B-202");
+          setClase("form-control is-valid");
         } else if (curse === "4" || curse === "5") {
           setLaboratorio("B-101");
+          setClase("form-control is-valid");
         }
         break;
       case "7":
         if (curse === "2") {
           setLaboratorio("C-302");
+          setClase("form-control is-valid");
         } else if (curse === "3") {
           setLaboratorio("C-304");
+          setClase("form-control is-valid");
         } else if (curse === "4") {
           setLaboratorio("B-102");
+          setClase("form-control is-valid");
         } else if (curse === "5") {
           setLaboratorio("B-104");
+          setClase("form-control is-valid");
         }
         break;
       default:
@@ -80,6 +91,7 @@ const FilterSection = () => {
     setCurso("1");
     setCiudad("1");
     setLaboratorio("");
+    setClase("form-control");
   };
   return (
     <>
@@ -157,7 +169,7 @@ const FilterSection = () => {
                   value={laboratorio}
                   //onChange={laboChange}
                   //class="form-control is-valid"
-                  className="form-control"
+                  className={clase}
                   disabled
                 />
               </FormGroup>

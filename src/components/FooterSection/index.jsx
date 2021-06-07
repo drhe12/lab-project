@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <FooterContainer id="footer">
       <FooterWrapper>
         <FooterMsg>¡Vive la experiencia de laboratorio virtual!</FooterMsg>
         <FooterSocialNetworkContainer>

@@ -6,10 +6,22 @@ export const PrincipalContainer = styled.div`
   color: #000;
   background: #fff;
   max-height: 700px;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 980px) {
+    margin-bottom: 20px;
+  }
 
   @media screen and (max-width: 768px) {
+    margin-bottom: 50px;
     padding: 60px 0 0 0;
     max-height: 1100px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-bottom: 40px;
   }
 `;
 
