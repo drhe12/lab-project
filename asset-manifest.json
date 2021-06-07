@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/lab-project/static/css/main.876a7d93.chunk.css",
+    "main.js": "/lab-project/static/js/main.77c3247f.chunk.js",
+    "main.js.map": "/lab-project/static/js/main.77c3247f.chunk.js.map",
+    "runtime-main.js": "/lab-project/static/js/runtime-main.2ab790a4.js",
+    "runtime-main.js.map": "/lab-project/static/js/runtime-main.2ab790a4.js.map",
+    "static/js/2.1356989b.chunk.js": "/lab-project/static/js/2.1356989b.chunk.js",
+    "static/js/2.1356989b.chunk.js.map": "/lab-project/static/js/2.1356989b.chunk.js.map",
+    "static/js/3.4b8a648f.chunk.js": "/lab-project/static/js/3.4b8a648f.chunk.js",
+    "static/js/3.4b8a648f.chunk.js.map": "/lab-project/static/js/3.4b8a648f.chunk.js.map",
+    "index.html": "/lab-project/index.html",
+    "static/css/main.876a7d93.chunk.css.map": "/lab-project/static/css/main.876a7d93.chunk.css.map",
+    "static/js/2.1356989b.chunk.js.LICENSE.txt": "/lab-project/static/js/2.1356989b.chunk.js.LICENSE.txt",
+    "static/media/Arrow.c6bd6c2f.svg": "/lab-project/static/media/Arrow.c6bd6c2f.svg",
+    "static/media/Blue_circle.174ea6c9.svg": "/lab-project/static/media/Blue_circle.174ea6c9.svg",
+    "static/media/Circle_2.982b8914.svg": "/lab-project/static/media/Circle_2.982b8914.svg",
+    "static/media/Ellipse.5e8ceed0.svg": "/lab-project/static/media/Ellipse.5e8ceed0.svg",
+    "static/media/Group_4.2b1ea429.svg": "/lab-project/static/media/Group_4.2b1ea429.svg",
+    "static/media/Gusano.eaccf604.svg": "/lab-project/static/media/Gusano.eaccf604.svg",
+    "static/media/Pink_circle.48264083.svg": "/lab-project/static/media/Pink_circle.48264083.svg",
+    "static/media/Rectangle_4.d4bcb6f7.svg": "/lab-project/static/media/Rectangle_4.d4bcb6f7.svg",
+    "static/media/check-all.b33958cf.svg": "/lab-project/static/media/check-all.b33958cf.svg",
+    "static/media/event-confirm.f302e86f.svg": "/lab-project/static/media/event-confirm.f302e86f.svg",
+    "static/media/fb-icon.5affdecd.svg": "/lab-project/static/media/fb-icon.5affdecd.svg",
+    "static/media/font-awesome.min.css": "/lab-project/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/instagram-icon.e629d543.svg": "/lab-project/static/media/instagram-icon.e629d543.svg",
+    "static/media/nucleo.css": "/lab-project/static/media/nucleo-icons.d6a66724.ttf",
+    "static/media/search.39d22c5d.svg": "/lab-project/static/media/search.39d22c5d.svg",
+    "static/media/sponsor-ieeecs-logo.39f4115e.svg": "/lab-project/static/media/sponsor-ieeecs-logo.39f4115e.svg",
+    "static/media/sponsor-utp-logo.7bfc7478.svg": "/lab-project/static/media/sponsor-utp-logo.7bfc7478.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ab790a4.js",
+    "static/js/2.1356989b.chunk.js",
+    "static/css/main.876a7d93.chunk.css",
+    "static/js/main.77c3247f.chunk.js"
+  ]
+}
