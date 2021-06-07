@@ -126,7 +126,7 @@ export const Heading = styled.h1`
   // margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   color: #333333;
 
   @media screen and (max-width: 480px) {
@@ -138,7 +138,7 @@ export const Textspan = styled.span`
   // margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   color: #f5365c;
 
   @media screen and (max-width: 480px) {
@@ -150,6 +150,8 @@ export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 60px;
   font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   line-height: 24px;
   color: #333333;
 
@@ -169,6 +171,8 @@ export const Subtitle = styled.p`
 export const BtnWrap = styled(LinkS)`
   display: flex;
   justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  //font-weight: 700 !important;
   width: 180px;
   z-index: 98;
 `;

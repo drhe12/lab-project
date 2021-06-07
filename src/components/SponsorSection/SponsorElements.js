@@ -40,7 +40,7 @@ export const SponsorWrapper = styled.div`
 export const SponsorTitle = styled.div`
   color: #1d293f;
   font-size: 40px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   line-height: 1.3;
   margin: 90px auto 80px auto;

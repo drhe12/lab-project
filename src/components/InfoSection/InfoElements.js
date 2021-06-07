@@ -235,7 +235,7 @@ export const InfoH1 = styled.h1`
   font-size: 40px;
   margin: 54px 0 64px 0;
   padding: 0 25px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   line-height: 1.3;
 
@@ -254,7 +254,7 @@ export const InfoH2 = styled.h2`
   font-size: 28px;
   line-height: 1.3;
   margin: 0 0 16px 0;
-  font-weight: bold;
+  font-weight: 700;
 
   @media screen and (max-width: 480px) {
     font-size: 20px;
@@ -267,7 +267,7 @@ export const InfoH23 = styled.h2`
   font-size: 28px;
   line-height: 1.3;
   margin: 0 0 16px 0;
-  font-weight: bold;
+  font-weight: 700;
 
   @media screen and (max-width: 480px) {
     font-size: 20px;
@@ -277,6 +277,21 @@ export const InfoH23 = styled.h2`
 export const InfoP = styled.p`
   max-width: 210px;
   font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #949494;
+  //text-align: center;
+
+  @media screen and (max-width: 480px) {
+    font-size: 15px;
+  }
+`;
+
+export const InfoP2 = styled.p`
+  max-width: 210px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   color: #949494;
   //text-align: center;
 

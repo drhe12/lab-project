@@ -23,7 +23,7 @@ export const FilterH1 = styled.h1`
   max-width: 720px;
   margin: 90px auto 80px auto;
   padding: 0 25px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
   line-height: 1.3;
 
@@ -95,6 +95,7 @@ export const BtnWrap = styled.div`
   margin: 60px 0;
   display: flex;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 `;
 
 export const ImgGusano = styled.img`

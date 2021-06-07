@@ -2412,7 +2412,7 @@ textarea.form-control.is-invalid {
 
 .btn {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700 !important;
   color: #525f7f;
   text-align: center;
   vertical-align: middle;

@@ -16,6 +16,7 @@ import {
   InfoH2,
   InfoH23,
   InfoP,
+  InfoP2,
   InfoDiv,
   InfoDiv2,
   ImgGusano,
@@ -55,10 +56,10 @@ const InfoSection = () => {
               <InfoArrow2 src={arrow} />
             </InfoTop>
             <InfoH2>Selecciona departamento</InfoH2>
-            <InfoP>
+            <InfoP2>
               We’ve helped over 2,500 job seekers to get into the most popular
               tech teams.
-            </InfoP>
+            </InfoP2>
           </InfoCard2>
           <InfoCard3>
             <InfoTop>

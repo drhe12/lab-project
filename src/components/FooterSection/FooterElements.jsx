@@ -24,7 +24,7 @@ export const FooterWrapper = styled.div`
 export const FooterMsg = styled.div`
   font-size: 30px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
   // background-color: #595959;
   flex-basis: 50%;
