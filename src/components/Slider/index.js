@@ -22,8 +22,8 @@ const Slider = () => {
               smooth={true}
               offset={-50}
               duration={500}
-              // isDynamic={true}
-              // onSetActive={this.handleSetActive}
+              activeClass="active"
+              ignoreCancelEvents={false}
             ></SliderSpan>
           </SliderLi>
           <SliderLi>
@@ -34,6 +34,8 @@ const Slider = () => {
               smooth={true}
               offset={-50}
               duration={500}
+              activeClass="active"
+              ignoreCancelEvents={false}
             ></SliderSpan>
           </SliderLi>
           <SliderLi>
@@ -44,16 +46,20 @@ const Slider = () => {
               smooth={true}
               offset={-50}
               duration={500}
+              activeClass="active"
+              ignoreCancelEvents={false}
             ></SliderSpan>
           </SliderLi>
           <SliderLi>
             <SliderSpan2
               to="sponsor"
               spy={true}
-              //exact="true"
+              exact="true"
               smooth={true}
               offset={-50}
               duration={500}
+              activeClass="active"
+              ignoreCancelEvents={false}
             ></SliderSpan2>
           </SliderLi>
         </SliderUl>

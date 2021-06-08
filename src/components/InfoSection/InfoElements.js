@@ -50,7 +50,7 @@ export const InfoWrapper = styled.div`
     height: 730px;
     padding: 0 20px 0 40px;
   }
-  @media screen and (max-width: 328px) {
+  @media screen and (max-width: 350px) {
     padding: 0 10px 0 30px;
   }
 `;
@@ -225,8 +225,9 @@ export const InfoArrow2 = styled.img`
   }
 
   @media screen and (max-width: 420px) {
+    top: 315px;
     width: 80px;
-    right: 110px;
+    right: 90px;
   }
 `;
 
@@ -259,6 +260,9 @@ export const InfoH2 = styled.h2`
   @media screen and (max-width: 480px) {
     font-size: 20px;
   }
+  @media screen and (max-width: 350px) {
+    font-size: 18px;
+  }
 `;
 
 export const InfoH23 = styled.h2`
@@ -271,6 +275,9 @@ export const InfoH23 = styled.h2`
 
   @media screen and (max-width: 480px) {
     font-size: 20px;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 18px;
   }
 `;
 
@@ -285,6 +292,9 @@ export const InfoP = styled.p`
   @media screen and (max-width: 480px) {
     font-size: 15px;
   }
+  @media screen and (max-width: 350px) {
+    font-size: 14px;
+  }
 `;
 
 export const InfoP2 = styled.p`
@@ -297,6 +307,9 @@ export const InfoP2 = styled.p`
 
   @media screen and (max-width: 480px) {
     font-size: 15px;
+  }
+  @media screen and (max-width: 350px) {
+    font-size: 14px;
   }
 `;
 
